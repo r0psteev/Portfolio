@@ -4,10 +4,83 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
     <title>Vite App</title>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+  <body class="bg-[#1f1f1f] text-white h-[100vh]">
+    <!-- header -->
+    <header class="border-b-[1px] border-b-[#565656]">
+      <div class="flex justify-between mx-[300px]">
+        <img class="rounded-full py-2" src="/r0psteev.png" alt="Profile picture" width="60px">
+        <nav class="flex items-center w-[200px] justify-around">
+          <a class="rounded-sm px-4 py-2 hover:underline" href="#projects">Projects</a>
+          <a class="rounded-sm px-4 py-2 hover:underline" href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+      
+    <!-- Body -->
+    <section class="flex flex-col mx-[300px] h-[40%] justify-evenly">
+      <p class="text-2xl text-center">
+        Hello! I am <span class="text-purple-500">Arnold Etaba</span>
+      </p>
+      <p class="mx-[9rem]">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quam odio voluptatem, laborum temporibus labore fugiat distinctio, perspiciatis voluptas, minima illo voluptates inventore dolore veritatis aspernatur totam quis? Sint praesentium quo aut architecto, quod reiciendis quia repellendus facere, rerum enim eos aliquid illum. Explicabo quas voluptates saepe veritatis velit deserunt ipsum maxime ut, sit provident.
+      </p>
+    </section>
+
+    <!-- About Me-->
+    <section id="projects">
+      <p class="text-2xl text-center">Projects</p>
+
+      <div class="flex flex-wrap  mx-[300px] space-x-8 space-y-8 mt-8">
+        <a href="https://github.com/r0psteev/cthulu-net/" class="rounded-xl p-4 flex flex-col w-[300px] h-[300px] bg-[#2e2e2e]">
+          <img width="300" class="rounded-xl" src="/1.png" alt="cthulu network scanner">
+          <p class="mt-2">Distributed Network Scanner</p>
+          <div class="mt-2">
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=R4qugZ8TYx0" class="rounded-xl p-4 flex flex-col w-[300px] h-[300px] bg-[#2e2e2e]">
+          <img width="300" class="rounded-xl" src="/2.png" alt="cthulu network scanner">
+          <p class="mt-2">Distributed Network Scanner</p>
+          <div class="mt-2">
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Neo4j</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Cypher</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/r0psteev/avanpostCase2/" class="rounded-xl p-4 flex flex-col w-[300px] h-[300px] bg-[#2e2e2e]">
+          <img width="300" class="rounded-xl" src="/3.png" alt="cthulu network scanner">
+          <p class="mt-2">Distributed Network Scanner</p>
+          <div class="mt-2">
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/r0psteev/tracecat" class="rounded-xl p-4 flex flex-col w-[300px] h-[300px] bg-[#2e2e2e]">
+          <img width="300" class="rounded-xl" src="/4.png" alt="cthulu network scanner">
+          <p class="mt-2">Distributed Network Scanner</p>
+          <div class="mt-2">
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+            <span class="px-2 border-[1px] border-purple-500 rounded-xl text-xs">Python</span>
+          </div>
+        </a>
+
+        <!-- Add contribution to tracecat SOAR -->
+      </div>
+    </section>
+
+    <!-- About Me-->
+    <section id="about">
+      <p class="text-2xl text-center">About</p>
+    </section>
   </body>
 </html>

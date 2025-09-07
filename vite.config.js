@@ -1,3 +1,8 @@
+import tailwindcss from "@tailwindcss/vite"
+
 export default {
-    base: '/Portfolio'
+    base: '/Portfolio',
+    plugins: [
+        tailwindcss(),
+    ]
 }
